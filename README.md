@@ -4,7 +4,9 @@ End-to-end implementation of Azure cloud database management program.
 A database is created for a demo company named MyProducts, Inc. All the required queries for the database are done in Azure SQL and then a Java application program is created that uses JDBC and Azure SQL Database to implement the necessary SQL queries.
 
 I. DESCRIPTION
+
 MyProducts, Inc. has three different types of employees: technical staff, quality controller and worker. Each employee has a unique name, an address, and a salary. A technical staff has an education record indicating the degrees he/she obtained (BS, MS, PhD) and technical position. For each quality controller, the company records the type of the product he/she will check. Each controller can check only one type of product. The company records the maximum number of products a worker can produce per day. 
+
 Workers are responsible for making the products. Quality controllers are responsible for testing the quality of the products. Technical staffs will fix the problems on products. The products will not be allowed to get out of the company without the certification of a quality controller. However, a defected product may get out due to an error made by a quality controller. Each product is produced, checked and repaired by one worker, quality controller, and technical staff, respectively. 
 
 Each product is assigned a unique product ID. The following information about a product should also be known:
