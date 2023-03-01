@@ -1,0 +1,26 @@
+ON-LINE QUERIES AND THEIR FREQUENCIES FOR THE DATABASE SYSTEM
+
+1) Enter a new employee (2/month).
+2) Enter a new product associated with the person who made the product, repaired the product if 
+it is repaired, or checked the product (400/day).
+3) Enter a customer associated with some products (50/day).
+4) Create a new account associated with a product (40/day).
+5) Enter a complaint associated with a customer and product (30/day).
+6) Enter an accident associated with an appropriate employee and product (1/week).
+7) Retrieve the date produced and time spent to produce a particular product (100/day).
+8) Retrieve all products made by a particular worker (2000/day).
+9) Retrieve the total number of errors a particular quality controller made. This is the total number 
+of products certified by this controller and got some complaints (400/day). 
+10) Retrieve the total costs of the products in the product3 category which were repaired at the 
+request of a particular quality controller (40/day).
+11) Retrieve all customers (in name order) who purchased all products of a particular color 
+(5/month).
+12) Retrieve all employees salary is above a particular salary (1/month).
+13) Retrieve the total number of work days lost due to accidents in repairing the products which 
+got complaints (1/month). 
+14) Retrieve the average cost of all products made in a particular year (5/day).
+15) Delete all accidents whose dates are in some range (1/day).
+
+Construct SQL statements to create tables and implement them on Azure SQL Database. All Create statements must include appropriate constraints as defined in Tasks 1 and 2. For each table, you must include SQL statements that create the same storage structure as the one you selected for Azure SQL Database implementation in Task 3.2 (e.g., if you have decided that a table X must have an index on attribute Y, then you must include an SQL statement to create an index on attribute Y for table X).
+
+Write SQL statements for all queries (1-15) defined in Section I. Write a Java application program that uses JDBC and Azure SQL Database to implement all SQL queries (options 1-15), two additional queries for import and export (options 16-17), and the “Quit” option (option 18) as specified in the menu given below. You are free to pick any file format you wish to use for file import and export options. The program will stop execution only when the user chooses the “Quit” option; otherwise all options must be available for the user to choose at all times. 
